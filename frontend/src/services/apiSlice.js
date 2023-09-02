@@ -1,7 +1,8 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: "http://localhost:4002",
+  //baseUrl: "http://localhost:4002",
+  baseUrl: "https://nodejsvoosh.onrender.com",
 });
 
 const apiSlice = createApi({
